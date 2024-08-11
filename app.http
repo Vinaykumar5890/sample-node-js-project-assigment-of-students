@@ -1,0 +1,10 @@
+POST https://devaragarivinaykumar9e8qdnjscpikngv.drops.nxtwave.tech/login
+Content-Type:application/json
+
+{
+    "username":"manga",
+    "name":"manga",
+    "password":"manga@123",
+    "gender":"female",
+    "location":"hyderbad"
+}
