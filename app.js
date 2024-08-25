@@ -10,7 +10,6 @@ const databasePath = path.join(__dirname, 'assignment.db')
 const app = express()
 
 app.use(express.json())
-app.use(cors())
 let database = null
 
 const initializeDbAndServer = async () => {
