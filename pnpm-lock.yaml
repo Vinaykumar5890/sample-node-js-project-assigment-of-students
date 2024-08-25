@@ -1,5 +1,7 @@
 dependencies:
   bcrypt: 5.1.1
+  body-parser: 1.20.2
+  cors: 2.8.5
   dotenv: 16.4.5
   express: 4.19.2
   jsonwebtoken: 9.0.2
@@ -336,6 +338,15 @@ packages:
       node: '>= 0.6'
     resolution:
       integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
+  /cors/2.8.5:
+    dependencies:
+      object-assign: 4.1.1
+      vary: 1.1.2
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
   /debug/2.6.9:
     dependencies:
       ms: 2.0.0
@@ -1795,6 +1806,8 @@ packages:
       integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 specifiers:
   bcrypt: ^5.1.1
+  body-parser: ^1.20.2
+  cors: ^2.8.5
   dotenv: ^16.4.5
   express: ^4.19.2
   jsonwebtoken: ^9.0.2
